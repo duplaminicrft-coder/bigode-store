@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: "lexend","sens-serif";
+    
+}
+.header-section{
+    height: 100vh;
+    background-image:url("../img/banner.svg") ;
+    background-size:no-repeat;
+    background-repeat:cover;
+
+    & header{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+
+        & nav{
+            display: flex;
+            gap: 40px;
+            & a {
+                color: #efefef;
+                font-size: 18px;
+
+            }
+     }
+     .btns {
+        display: flex;
+        gap: 16px;
+        & a {
+            padding: 11px 16px;
+            border-radius: 8px;
+            background-color: #3b44f6;
+            color: #ffff;
+        } 
+        & a:last-child {
+            background-color: #ffff;
+            border: 1px #ffff;
+
+
+        }
+
+     }
+    }
+
+}
